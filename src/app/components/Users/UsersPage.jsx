@@ -132,7 +132,7 @@ const UsersPage = () => {
       switch (activeTab) {
         case "admin":
           if (!aid) throw new Error("Admin ID required to delete an admin.");
-          res = await fetch(`https://sayc-app-api-39gxh.ondigitalocean.app/api/admin/deleteAdmin/${userId}`, {
+          res = await fetch(`https://e-recuite-api-inmpf.ondigitalocean.app/api/admin/deleteAdmin/${userId}`, {
             method: "DELETE",
             headers: {
               "Content-Type": "application/json",
@@ -149,7 +149,7 @@ const UsersPage = () => {
 
         case "recruiter":
           if (!aid) throw new Error("Admin ID required to delete a recruiter.");
-          res = await fetch(`https://sayc-app-api-39gxh.ondigitalocean.app/api/admin/deleteRecruiter/${aid}/${userId}`, {
+          res = await fetch(`https://e-recuite-api-inmpf.ondigitalocean.app/api/admin/deleteRecruiter/${aid}/${userId}`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",

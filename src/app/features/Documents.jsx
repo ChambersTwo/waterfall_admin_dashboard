@@ -31,7 +31,7 @@ const DocumentsModal = ({ onClose }) => {
       setError("");
 
       const response = await axios.get(
-        "https://sayc-app-api-39gxh.ondigitalocean.app/api/admin/allDocuments"
+        "https://e-recuite-api-inmpf.ondigitalocean.app/api/admin/allDocuments"
       );
 
       // Map API response to frontend table format
@@ -94,7 +94,7 @@ const DocumentsModal = ({ onClose }) => {
       return;
 
     try {
-      await axios.delete(`/api/hr/documents/${doc.id}`);
+      await axios.delete(`https://e-recuite-api-inmpf.ondigitalocean.app/api/hr/documents/${doc.id}`);
       fetchDocuments();
     } catch {
       alert("Failed to delete document.");

@@ -18,7 +18,7 @@ const NotificationsModal = ({ onClose }) => {
     const fetchApplicants = async () => {
       try {
         const response = await axios.get(
-          "https://sayc-app-api-39gxh.ondigitalocean.app/api/hr/all_applicants",
+          "https://e-recuite-api-inmpf.ondigitalocean.app/api/hr/all_applicants",
           {
             headers: {
               "Accept": "application/json",

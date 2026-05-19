@@ -21,7 +21,7 @@ const ProfileSettings = ({ onClose, embedded = false }) => {
         if (!userId) return;
 
         const response = await axios.get(
-          'https://sayc-app-api-39gxh.ondigitalocean.app/api/admin/allAdmins',
+          'https://e-recuite-api-inmpf.ondigitalocean.app/api/admin/allAdmins',
           {
             headers: {
               Accept: 'application/json',
