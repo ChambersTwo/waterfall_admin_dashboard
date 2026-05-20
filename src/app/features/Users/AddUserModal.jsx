@@ -293,10 +293,6 @@ const AddUserModal = ({ show, onClose, onAdd, activeTab, roleLabel }) => {
                   </option>
                 ))}
               </select>
-              <p className="text-xs text-gray-500 mt-1">
-                Tip: to skip this step in future, store{" "}
-                <code>sessionStorage.admin_id</code> after login.
-              </p>
             </div>
           )}
 
