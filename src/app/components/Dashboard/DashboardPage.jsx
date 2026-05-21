@@ -33,10 +33,10 @@ const AdminDashboard = () => {
     const fetchData = async () => {
       try {
         const [usersRes, jobsRes, applicantsRes, hrRes] = await Promise.all([
-          axios.get('https://e-recuite-api-inmpf.ondigitalocean.app/api/candidate/'),
-          axios.get('https://e-recuite-api-inmpf.ondigitalocean.app/api/candidate/allPosts'),
-          axios.get('https://e-recuite-api-inmpf.ondigitalocean.app/api/hr/all_applicants'),
-          axios.get('https://e-recuite-api-inmpf.ondigitalocean.app/api/hr/allHRMembers')
+          axios.get('https://waterfall-api-nnsgg.ondigitalocean.app/api/candidate/'),
+          axios.get('https://waterfall-api-nnsgg.ondigitalocean.app/api/candidate/allPosts'),
+          axios.get('https://waterfall-api-nnsgg.ondigitalocean.app/api/hr/all_applicants'),
+          axios.get('https://waterfall-api-nnsgg.ondigitalocean.app/api/hr/allHRMembers')
         ]);
 
         const users = usersRes.data;

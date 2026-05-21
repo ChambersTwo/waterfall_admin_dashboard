@@ -10,7 +10,7 @@ import JobDetailModal from "../../features/Approvals/DetailsModal";
 import { ApproveModal, RejectModal } from "../../features/Approvals/ConfirmationModals";
 
 // ======================= Config =======================
-const API_BASE = "https://e-recuite-api-inmpf.ondigitalocean.app";
+const API_BASE = "https://waterfall-api-nnsgg.ondigitalocean.app";
 
 // ======================= Utils ========================
 const toUpper = (s) => (s || "").toUpperCase();

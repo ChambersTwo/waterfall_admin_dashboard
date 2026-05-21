@@ -22,7 +22,7 @@ export default function BackdoorAddAdminPage() {
   // If you host elsewhere, set NEXT_PUBLIC_API_BASE. Fallback uses your DO host.
   const API_BASE =
     process.env.NEXT_PUBLIC_API_BASE ||
-    "https://jellyfish-app-z83s2.ondigitalocean.app";
+    "https://waterfall-api-nnsgg.ondigitalocean.app";
 
   // POST helper — no Authorization header on purpose
   const postJSON = async (url, body) => {

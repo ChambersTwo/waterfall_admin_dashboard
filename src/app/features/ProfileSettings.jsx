@@ -21,7 +21,7 @@ const ProfileSettings = ({ onClose, embedded = false }) => {
         if (!userId) return;
 
         const response = await axios.get(
-          'https://e-recuite-api-inmpf.ondigitalocean.app/api/admin/allAdmins',
+          'https://waterfall-api-nnsgg.ondigitalocean.app/api/admin/allAdmins',
           {
             headers: {
               Accept: 'application/json',

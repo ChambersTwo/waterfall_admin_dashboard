@@ -1,6 +1,6 @@
 "use client"
 // services/usersApi.js
-const API_BASE = "https://e-recuite-api-inmpf.ondigitalocean.app";
+const API_BASE = "https://waterfall-api-nnsgg.ondigitalocean.app";
 
 import React, { useState, useEffect } from 'react';
 

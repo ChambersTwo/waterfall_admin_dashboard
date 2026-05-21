@@ -36,7 +36,7 @@ export default function MFAPage() {
 
     try {
       const res = await fetch(
-        "https://e-recuite-api-inmpf.ondigitalocean.app/api/admin/adminAuth",
+        "https://waterfall-api-nnsgg.ondigitalocean.app/api/admin/adminAuth",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -71,7 +71,7 @@ export default function MFAPage() {
 
     try {
       const res = await fetch(
-        `https://e-recuite-api-inmpf.ondigitalocean.app/api/admin/resendMFA/${userId}`,
+        `https://waterfall-api-nnsgg.ondigitalocean.app/api/admin/resendMFA/${userId}`,
         { method: "POST" }
       );
       const data = await res.json();

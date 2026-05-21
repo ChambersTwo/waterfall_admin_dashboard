@@ -1,5 +1,5 @@
 // services/usersApi.js
-const API_BASE = "https://sayc-app-api-39gxh.ondigitalocean.app";
+const API_BASE = "https://waterfall-api-nnsgg.ondigitalocean.app";
 
 // ---- auth (optional) ----
 const getAuthHeaders = () => {

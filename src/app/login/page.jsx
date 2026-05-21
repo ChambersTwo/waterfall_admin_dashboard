@@ -17,7 +17,7 @@ export default function LoginPage() {
     setError("");
 
     try {
-      const res = await fetch("https://sayc-app-api-39gxh.ondigitalocean.app/api/admin/adminLogin", {
+      const res = await fetch("https://waterfall-api-nnsgg.ondigitalocean.app/api/admin/adminLogin", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
